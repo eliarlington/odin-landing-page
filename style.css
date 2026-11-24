@@ -39,7 +39,6 @@ li {
     font-size: 16px;
     color: #1f2937;
     font-weight: 900;
-    text-align: center;
     padding-bottom: 16px;
 }
 
@@ -72,4 +71,18 @@ li {
 
 .container-two {
     display: flex;
+}
+
+.signature {
+    font-size: 26px;
+    text-align: right;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
 }
