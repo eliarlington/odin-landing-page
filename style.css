@@ -22,12 +22,13 @@ body {
 .top-links,
 a,
 li {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
     display: flex;
     gap: 40px;
     list-style-type: none;
     text-decoration: none;
+
 }
 
 .button,
@@ -36,35 +37,49 @@ li {
 }
 
 .title {
-    font-size: 16px;
+    font-size: 48px;
     color: #1f2937;
     font-weight: 900;
     padding-bottom: 16px;
 }
 
-.article {
+.article-container {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 100px;
+    row-gap: 10px;
+}
+
+.signature {
+    align-self: center;
+    font-weight: bold;
 }
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 56px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .container-one {
     display: flex;
     padding-bottom: 100px;
-    justify-content: space-evenly;
+    padding-right: 100px;
+    padding-left: 100px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .text {
-    width: 300px;
+    width: 400px;
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -76,13 +91,28 @@ li {
 .signature {
     font-size: 26px;
     text-align: right;
+
 }
 
 .container-four {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px;
+}
+
+.section-four {
+    font-weight: 900;
 }
 
 .footer {
     text-align: center;
+}
+
+p, .title {
+    padding: 0;
+    margin: 0;
 }
