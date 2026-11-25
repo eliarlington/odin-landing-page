@@ -52,6 +52,8 @@ li {
     font-size: 18px;
     font-weight: bold;
     color: #2D5987;
+    padding-top: 30px;
+    padding-bottom: 12px;
 }
 
 .article-container {
@@ -98,7 +100,16 @@ li {
 
 .boxes {
     display: flex;
-    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.container-two {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-bottom: 100px;
 }
 
 .signature {
@@ -106,11 +117,7 @@ li {
     text-align: right;
 }
 
-.container-two {
-    background-color: white;
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
+
 
 .container-four {
     display: flex;
@@ -136,4 +143,10 @@ li {
 p, .title {
     padding: 0;
     margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
