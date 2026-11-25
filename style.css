@@ -45,6 +45,7 @@ li {
 
 .container-four {
     background-color: #3882F6;
+    border-radius: 6px;
 }
 
 .title {
@@ -121,16 +122,14 @@ li {
     text-align: right;
 }
 
-
-
 .container-four {
     display: flex;
-    justify-content: space-around;
+    width: fit-content;
     align-items: center;
     color: #E5E7EB;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 100px;
+    margin: 100px auto;
+    padding: 50px;
+    gap: 500px;
 }
 
 .section-four {
@@ -164,7 +163,7 @@ img, .text-container {
     border: 2px solid #3882F6;
 }
 
-.button-one {
+.button-one, .button-four {
     border-radius: 8px;
     background-color: #3882F6;
     color: white;
@@ -172,4 +171,9 @@ img, .text-container {
     border-color: #3882F6;
     padding: 4px 16px;
     margin-top: 8px;
+}
+
+.button-four {
+    border-color: white;
+    cursor: pointer;
 }
