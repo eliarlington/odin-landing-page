@@ -13,6 +13,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .section-one {
@@ -33,7 +34,6 @@ li {
 
 }
 
-.button,
 .container-four {
     background-color: #3882F6;
 }
@@ -155,4 +155,14 @@ p, .title {
 img, .text-container {
     width: 500px;
     height: 250px;
+}
+
+.button-one {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-color: #3882F6;
+    padding: 4px 16px;
+    margin-top: 8px;
 }
